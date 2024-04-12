@@ -6,6 +6,8 @@ import datetime
 import wikipedia
 import pyjokes
 
+print("Ask a question?")
+
 listener = sr.Recognizer()
 engine = pyttsx3.init()
 voices = engine.getProperty('voices')
